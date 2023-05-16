@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+<title>MSK</title>
+
+</section>
+
+
+<section id="section2">
+<nav>
+  <div class="msk-logo">
+      <img src="C:\Users\LFDC\Desktop\BSC\MSKLOGO.png" width="100px" align="left">
+  </div>
+
+  
+    <a class="nav-link" href="#">Home</a>
+   
+    
+    <div class="dropdown">
+      <a class="nav-link" href="#">Catlouge</a> 
+      <div class="dropdown-content">
+        <a class="nav-link" href="cat.html">MSK-1</a>
+        <a class="nav-link" href="cat2.html">MSK- 2</a>
+        <a class="nav-link" href="cat3.html">MSK-3</a>
+        <a class="nav-link" href="rings.html">MSK-Rings</a>
+        <a class="nav-link" href="chains.html">MSK-Chains</a>
+       
+      </div>
+    </div>
+
+    <a class="nav-link"  href="liverates.html">Live rates</a>
+    <a class="nav-link"  href="store2.html">Store</a>
+    <a class="nav-link"  href="Registration.html">Registration</a>
+    <a class="nav-link" href="founder.html">Founder</a>
+
+
+
+
+
+</nav>
+</section>
+
+<style>
+  .nav-link{
+    color:white;
+  }
+
+  
+   #section2 .msk-logo img
+   {
+    align-items: left;
+  }
+ #video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        
+        #my-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            transform: translate(-50%, -50%);
+        }
+        
+  .dropdown-content{
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: white;
+    border-radius: 4px;
+  }
+
+  .dropdown-content a{
+    color: black;
+  }
+        
+        #page-content {
+            z-index: 2;
+        }
+
+        #section2 {
+  background-color:;
+  color:aliceblue
+}
+ #section2 .msk-logo 
+ {
+margin-left: 0px;
+}
+.dropdown
+ {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content select {
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  color: black;
+}
+
+.dropdown-content select option {
+  font-size: 16px;
+  color: black;
+}
+
+#section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  margin-bottom: 10px;
+}
+
+#section1 header {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+#section1 .title {
+  font-size: 15em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 5px;
+  text-shadow: 0 0 10px black, 0 0 20px #000000, 0 0 30px #000000;
+  margin-block-start: 0;
+  line-height: 100%;
+}
+
+
+#section1 .title1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 100px;
+  text-shadow: 0 0 10px black, 0 0 20px #000000, 0 0 30px #000000;
+  
+}
+#section1 .video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+h2{
+  margin :0px;
+}
+
+#section1 .video-wrapper video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+nav {
+  background-color: ;
+  font-size: 24px;
+  color : silver;
+  font-family: "Segoe UI", sans-serif;
+  border-radius: 5px;
+  text-align: right;
+}
+
+nav a:hover {
+  animation: glitter 0.5s ease-in-out forwards;
+}
+
+nav a {
+  display: inline-block;
+  background-color: ;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* Section 3 CSS */
+main {
+  background-color: ;
+  font-size: 24px;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+
+main h2 {
+  font-family: "Segoe Script", cursive;
+  font-size:47px;
+  text-align: center;
+  margin-top: 0;
+}
+
+main p {
+  margin: 10px 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Diamond shape */
+main {
+  background: linear-gradient(45deg, transparent 45px, gold 45px),
+              linear-gradient(-45deg, transparent 45px, #gold 45px),
+              linear-gradient(45deg, #000000 45px, transparent 45px),
+              linear-gradient(-45deg, #CCCC33 45px, transparent 45px);
+  background-size: 80px 80px;
+  background-position: 0 0, 0 40px, 40px -40px, -40px 0px;
+}
+
+/* Hover animation */
+nav a:hover, main p:hover {
+  animation: glitter 0.5s ease-in-out forwards;
+}
+
+/* Glitter animation */
+@keyframes glitter {
+  0% { color:black; }
+  50% { color: #DCDCDC; }
+  100% { color: #808080; }
+}
+
+section:nth-child(1) {
+  margin-bottom: 2cm;
+}
+section:nth-child(1) h1,
+section:nth-child(2) h1 {
+  font-family: "royal", sans-serif;
+  transition: color 0.5s ease;
+}
+section:nth-child(1) h1,
+section:nth-child(2) h1 {
+  font-family: "royal", sans-serif;
+  transition: color 0.5s ease;
+}
+.ff{
+  background-color: ;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.dropdown-content{
+    color: white;
+  }
+main h1 {
+  font-family: "Segoe Script", cursive;
+  font-size:47px;
+  text-align: center;
+  margin-top: 0;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content select {
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  color: black;
+}
+
+.dropdown-content select option {
+  font-size: 16px;
+  color: black;
+}
+
+</style>
+</head>
+
+
+
+
+
+
+<body> 
+ <div id="video-container">
+        <video id="my-video" src="diamonds-3126.mp4" autoplay muted loop></video>
+        <div id="video-overlay"></div>
+    </div>
+
+<div id="section1">
+  <header>
+      <h1 class="title">MSK <br> </h1>
+      <h2 class="title1">GOLD AND SILVER</h2>
+  </div >
+
+<section>
+<section id="section3">
+<main>
+<h1><u>About Us</u></h1>
+<p>MSK provides platform  for every  intrested user to get to know detailed information about Gold  and Silver live rates and many more
+MSK is an website where we provide user hassle free experience.
+MSK is an transperant website  where everyone can get precise information irrespective of the class.
+MSK has an   transperant website where everyone can get free information regarding precious metals and stones.
+</p>
+<h2><u>Contact Us </u></h2>
+<p><b>Address:</b> POT market,Secunerabad,500003</p>
+<p><b>Phone:</b> 040-49810118/9849015574/9398432623 </p>
+<p><b>Email:</b>mskjewellery2003@gmail.com</p>
+</main>
+</section>
+<br><footer class="ff">
+ 
+
+
+  <p>Copyright © 2023www.mskgoldandsilver.com. All rights reserved.</p>
+    
+</footer>
+
+</body>
+</html>
+
+

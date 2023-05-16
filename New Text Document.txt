@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MSK</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color:black;
+margin: 0;
+padding: 0;
+}
+header {
+background-color:purple;
+color:purple;
+padding: 10px;
+text-align: center;
+}
+nav {
+background-color: purple;
+
+overflow: hidden;
+}
+nav a {
+float: left;
+color: #333;
+text-align: center;
+padding: 14px 16px;
+t ext-decoration: none;
+font-size: 17px;
+font-weight: bold;
+}
+nav a:hover {
+background-color: purple;
+color: #007bff;
+}
+h1 {
+float: left;
+color: #333;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+font-weight: bold;
+
+}
+</style>
+</head>
+<body>
+<header>
+<h1>MSK <br>GOLD AND SILVER WORKS</h1>
+</header>
+<nav>
+<a href="home.html">HOME</a>
+</nav>
+<main>
+<!DOCTYPE html>
+<html>
+<head>
+<title>MSK</title>
+<style>
+body 
+
+header {
+background-color: purple;
+color:gold;
+padding: 0.5px;
+text-align: center;
+}
+nav a {
+float: left;
+color:gold;
+background-color: purple;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+font-weight: bold;
+<header>
+<h1>PLATINUM</h1>
+</header>
+</body>
+</html>

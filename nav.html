@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>9 Images with Hover and Black Background</title>
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+		.image {
+			position: relative;
+			margin: 10px;
+			width:  50%;
+			height: 200px;
+			overflow: hidden;
+		}
+		.image img {
+			width: 50%;
+		}
+		.image:hover .overlay {
+			opacity: 1;
+		}
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+			opacity: 0;
+			transition: opacity 0.5s ease-in-out;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.overlay p {
+			color: #fff;
+			font-size: 18px;
+			text-align: center;
+		}
+		.container {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(3, auto);
+			grid-gap: 20px;
+		}
+		.image {
+			display: inline-block;
+			margin-bottom: 20px;
+			width: 90%;
+			height: auto;
+		}
+		.image1 {
+			position: relative;
+			width: 100%;
+			height: auto;
+			/* This block was not closed properly in the original code */
+		}
+		h1 {
+			font-size: 48px;
+			text-align: center;
+			margin-top: 50px;
+			animation-name: slide;
+			animation-duration: 2s;
+		}
+
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
+		}
+
+		/* These two blocks were repeated in the original code */
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.image {
+			position: relative;
+			margin: 10px;
+			width:  50%;
+			height: 200px;
+			overflow: hidden;
+		}
+
+		.image img {
+			width: 50%;
+		}
+
+		.image:hover .overlay {
+			opacity: 1;
+		}
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+			opacity: 0;
+			transition: opacity 0.5s ease-in-out;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.overlay p {
+			color: #fff;
+			font-size: 18px;
+			text-align: center;
+		}
+
+		.container {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(3, auto);

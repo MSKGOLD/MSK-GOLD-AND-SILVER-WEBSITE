@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+<title>MSK</title>
+
+
+
+<style>
+ #video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        
+        #my-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            transform: translate(-50%, -50%);
+        }
+        
+        
+        
+        #page-content {
+            z-index: 2;
+        }
+
+
+#section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+#section1 header {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+#section1 .title {
+  font-size: 4em;
+  font-weight: bold;
+  color:#fffa79;
+  margin-bottom: 0;
+  text-shadow: 0 0 10px black, 0 0 20px #BCC6CC, 0 0 30px #BCC6CC;
+}
+
+#section1 .video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+#section1 .video-wrapper video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+/* Section 2 CSS */
+nav {
+  background-color: silver;
+  font-size: 24px;
+  color: #808080;
+  font-family: "Segoe UI", sans-serif;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  animation: glitter 0.5s ease-in-out forwards;
+}
+
+nav a {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* Section 3 CSS */
+main {
+  background-color: ;
+  font-size: 24px;
+  color: #808080;
+  font-family: "Segoe UI", sans-serif;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+main h1,
+main h2 {
+  font-family: "Segoe Script", cursive;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 0;
+}
+
+main p {
+  margin: 10px 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Diamond shape */
+main {
+  background: linear-gradient(45deg, transparent 45px, gold 45px),
+              linear-gradient(-45deg, transparent 45px, #gold 45px),
+              linear-gradient(45deg, #000000 45px, transparent 45px),
+              linear-gradient(-45deg, #CCCC33 45px, transparent 45px);
+  background-size: 80px 80px;
+  background-position: 0 0, 0 40px, 40px -40px, -40px 0px;
+}
+
+/* Hover animation */
+nav a:hover, main p:hover {
+  animation: glitter 0.5s ease-in-out forwards;
+}
+
+/* Glitter animation */
+@keyframes glitter {
+  0% { color: #808080; }
+  50% { color: #DCDCDC; }
+  100% { color: #808080; }
+}
+
+section:nth-child(1) {
+  margin-bottom: 2cm;
+}
+section:nth-child(1) h1,
+section:nth-child(2) h1 {
+  font-family: "royal", sans-serif;
+  transition: color 0.5s ease;
+}
+section:nth-child(1) h1,
+section:nth-child(2) h1 {
+  font-family: "royal", sans-serif;
+  transition: color 0.5s ease;
+}
+#section1 .title {
+  font-size: 10em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 5px;
+  text-shadow: 0 0 10px black, 0 0 20px #000000, 0 0 30px #000000;
+  margin-block-start: 0;
+}
+#section1 .title1 {
+  font-size: 5em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 0;
+  text-shadow: 0 0 10px black, 0 0 20px #000000, 0 0 30px #000000;
+  
+}
+
+h2{
+  margin :0px;
+}
+
+</style>
+</head>
+
+
+
+
+
+
+<body> 
+  <div class="msk-logo">
+    <a href="home.html"><img src="C:\Users\LFDC\Desktop\BSC\MSKLOGO.png" width="100px" align="left"></a>
+  </div>
+ <div id="video-container">
+        <video id="myvideo" src="Gols_Confetti_2.mp4" autoplay muted loop></video>
+        <div id="video-overlay"></div>
+    </div>
+
+<section id="section1">
+  <header>
+     <h1 class="title">MSK</h1>
+    <h2 class="title1">GOLD </h2>
+  </header>
+</section>
+<html>
+  <head>
+    <title>Box with 4 Columns and 4 Rows</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td {
+        border: 1px solid #BCC6CC ;
+        padding: 10px;
+        text-align: center;
+        color: #808080;
+      }
+      .ff {
+	  background-color: rgb(0, 0, 0);
+	  color: #ffffff;
+	  text-align: center;
+	  padding: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td><b>S.no</b></td>
+        <td><b>Karat</b></td>
+        <td><b>Purity</b></td>
+        <td><b>Rates</b></td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>24 Karat</td>
+        <td>100%</td>
+        <td><b>61,750</b></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>22 Karat</td>
+        <td>92%</td>
+        <td><b>56,810</b></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>20 Karat</td>
+        <td>85%</td>
+        <td><b>52,489</b></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>18 Karat</td>
+        <td>75%</td>
+        <td><b>43,999</b></td>
+      </tr>
+    </table>
+  </body>
+ 
+<section id="section2">
+  <nav>
+  <a href="home.html">Home</a>
+  <a href="cat.html">Catlouge</a>
+  <a href="Registration.html">Registration</a>
+
+  </section>
+  
+</html>
+
+<section id="section3">
+<main>
+<h1><u>About Us</u></h1>
+<p>MSK provides platform  for every  intrested user to get to know deatiled information about Gold  and Silver live rates and many more
+MSK is an website where we provide user hassle free experience.
+MSK is an transperant website  where everyone can get precise informatioon irrespective of the class.
+MSK has an   transperant website where everyone can get free information regarding precious metals and stones.
+</p>
+<h2><u>Contact Us </u></h2>
+<p><b>Address:</b> POT market,Secunerabad,500003</p>
+<p><b>Phone:</b> 040-49810118/9849015574/9398432623 </p>
+<p><b>Email:</b>mskjewellery2003@gmail.com</p>
+</main>
+</section>
+
+<footer class="ff">
+	<p>Copyright © 2023www.mskgoldandsilver.com. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+

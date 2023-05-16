@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>REGISTRATION</title>
+    <style>
+      body
+
+ {
+        background: linear-gradient(to bottom, #FFD700, aqua);
+        animation: background-animation 10s ease infinite;
+        background-size: 400% 400%;
+      } 
+      
+      @keyframes background-animation {
+        0% {
+          background-position: 0% 0%;
+        }
+        50% {
+          background-position: 50% 100%;
+        }
+        100% {
+          background-position: 100% 0%;
+        }
+      }
+      
+      h1 {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 3rem;
+        margin-top: 2rem;
+        animation: title-animation 1s ease-in-out;
+      }
+      
+      @keyframes title-animation {
+        0% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        animation: form-animation 1s ease-in-out;
+      }
+      
+      @keyframes form-animation {
+        0% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+        
+      input[type="text"],
+      input[type="tel"],
+      input[type="email"],
+      select {
+        display: block;
+        width: 40%;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        animation: field-animation 0.5s ease-in-out forwards;
+        opacity: 0;
+      }
+      
+      @keyframes field-animation {
+        0% {
+          transform: translateY(100%);
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        animation: submit-animation 1s ease-in-out;
+      }
+      
+      @keyframes submit-animation {
+        0% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+      .nav-container {
+      position: relative;
+      border: 1px solid rgb(0, 0, 0);
+      border-style:linear;
+      padding: 10px;
+      margin-bottom: 30px;
+      background-color:;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="msk-logo">
+      <a href="home.html"> <img src="C:\Users\LFDC\Desktop\BSC\MSKLOGO.png" width="100px" align="left"></a>
+     </div>
+  
+    <div class="nav-container">
+      <a href="home.html">Home</a>
+     
+    </div>
+    <h1>Registration</h1>
+    <form>
+      <input type="text" id="Full Name" name="name" placeholder="Name" required>
+      <input type="tel" id="Mobile Number" name="mobile number" placeholder="Mobile " pattern="[0-9]{10}" required>
+       <input type="text" id="Email" name="name" placeholder="Email" <input type="email" id="email" name="email" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+
+     
+      <select id="Gold">
+  <option value="GOLD">GOLD</option>
+<option value="chain">Chain</option>
+  <option value="Rings">Rings</option>
+  <option value="Bracelets">Bracelets</option>
+  <option value="Kadas">Kadas</option>
+  <option value="Bangels">Bangels</option>
+   <option value="others">others</option>
+</select>
+  <select id="Silver">
+  <option value="SILVER">SILVER</option>
+  <option value="chain">Chain</option>
+  <option value="Rings">Rings</option>
+  <option value="Bracelets">Bracelets</option>
+  <option value="Kadas">Kadas</option>
+  <option value="Bangels">Bangels</option>
+  <option value="others">others</option>
+</select>
+<select id="GEMS">
+  <option value="Navratna's">GEMS</option>
+  <option value="Gomedagam">Gomedagam</option>
+<option value="Emerald">Emerald</option>
+  <option value="Diamond">Diamond</option>
+  <option value="Coral">Coral</option>
+  <option value="Yellow sapphire">Yellow sapphire</option>
+  <option value="Ruby">Ruby</option>
+   <option value="Cat's eye">Cat's eye</option>
+</select>
+<button type="submit" class="animated-button">
+  <span>Submit</span>
+  <svg viewBox="0 0 220 60" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="grad1">
+        <stop offset="0%" stop-color="#FF8282"/>
+        <stop offset="100%" stop-color="#E178ED"/>
+      </linearGradient>
+    </defs>
+    <rect x="5" y="5" rx="25" fill="none" stroke="black" width="210" height="50"></rect>
+  </svg>
+</button>
+
+<style>
+  .animated-button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0;
+    margin: 20px;
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    background: none;
+  }
+
+  .animated-button:hover {
+    color: #FFFFFF;
+  }
+
+  .animated-button span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: color 0.3s ease;
+  }
+
+  .animated-button svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: transform 0.5s ease;
+  }
+
+  .animated-button:hover svg {
+    transform: translateX(110%);
+  }
+
+  .animated-button:active rect {
+    stroke-dasharray: 0 500;
+    stroke-width: 2;
+    stroke-linecap: round;
+    animation: animate 2s linear forwards;
+  }
+
+  @keyframes animate {
+    to {
+      stroke-dasharray: 500 0;
+    }
+  }
+</style>
+
+<footer class="ff">
+ 
+
+
+  <p>Copyright © 2023www.mskgoldandsilver.com. All rights reserved.</p>
+    
+</footer>

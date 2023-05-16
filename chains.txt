@@ -1,0 +1,40 @@
+
+html
+head
+	title MSK title
+head
+style
+	body {
+	  background-color grey;
+	}
+  
+	.ff {
+	  background-color grey;
+	  color #ffffff;
+	  text-align center;
+	  padding 1px;
+	}
+	main h1 {
+  font-family Segoe Script	;
+  font-size47px;
+  text-align center;
+  margin-top 0;
+}
+style
+
+body
+	div class=msk-logo
+	a href=home.htmlimg src=CUsersLFDCDesktopBSCMSKLOGO.png width=100px align=lefta
+	  div
+	
+		h1 bMSKbh1
+
+	pOur Designsp
+
+	embed src=MSK -1.pdf type=applicationpdf width=100% height=800px  
+
+body
+footer class=ff
+	pCopyright © 2023www.mskgoldandsilver.com. All rights reserved.p
+  footer
+html
